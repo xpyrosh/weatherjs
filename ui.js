@@ -23,10 +23,10 @@ class UI {
         this.icon.setAttribute('src', weatherIcon) 
 
 
-        this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}`;
-        this.feelslike.textContent = `Feels Like: ${weather.main.feels_like}`;
+        this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}%`;
+        this.feelslike.textContent = `Feels Like: ${weather.main.feels_like} F`;
         this.pressure.textContent = `Pressure: ${weather.main.pressure}`;
-        this.wind.textContent = `Wind Speed: ${weather.wind.speed}`;
+        this.wind.textContent = `Wind Speed: ${weather.wind.speed} MPH`;
         
     }
 }
